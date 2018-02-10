@@ -1,0 +1,32 @@
+body {
+	margin:0 auto;
+	font-family: "Helvetica", "Arial",sans-serif;
+	line-height: 1.5;
+}
+header {
+	background-color: #B31819;
+	background-image: url("../images/cubs.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2em;
+	text-align: center;
+	color: #2C2721;
+	background-position: center;
+}
+
+.main {
+	display: flex;
+	width: 100%;
+
+}
+.sidebar {
+	flex:1;
+	order: 1;
+	padding: 1.5em;
+}
+
+.content {
+	order:1;
+	flex:5;
+}
+
