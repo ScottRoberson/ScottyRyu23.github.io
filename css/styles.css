@@ -17,16 +17,21 @@ header {
 .main {
 	display: flex;
 	width: 100%;
+	min-height: 888px;
+	background-color: #A5A9B0;
+	padding: 1em;
 
 }
 .sidebar {
 	flex:1;
 	order: 1;
 	padding: 1.5em;
+	background-color: #6E8CCA;
 }
 
 .content {
 	order:1;
 	flex:5;
+
 }
 
