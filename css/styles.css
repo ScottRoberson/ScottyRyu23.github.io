@@ -1,24 +1,73 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
 body {
 	margin:0 auto;
 	font-family: "Helvetica", "Arial",sans-serif;
 	line-height: 1.5;
+	/*width: 80%;*/
+	/*background-color: #B31819;*/
 }
 header {
-	background-color: #B31819;
-	background-image: url("../images/cubs.jpg");
+	background-image: url("../images/ballpark.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 2em;
-	text-align: center;
-	color: #2C2721;
-	background-position: center;
+	background-size:cover;
+  	background-position: center;
+  	max-width:100%;
+  	height:100vh;	
+	display: flex;
+	/*opacity:.80;*/
+	/*position: relative;*/
+	/*z-index: -1;*/
 }
 
+.welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	color: #ffffff;
+	padding: 2em;
+	font-family: open sans;
+	/*position: relative;*/
+	/*z-index: 1;*/
+	text-shadow: 1px 1px #3498db;
+}
+.welcome h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.welcome p {
+	font-size:15px; 
+	font-weight: bold;
+	padding:  0 1.75em;
+
+}
+
+button {
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #3498db;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border: #1f628d 2px solid;
+	border-radius: 28px;
+}
+
+button:hover {
+	 background-color: #3cb0fd; 
+     color: white;
+
+}
 .main {
 	display: flex;
 	width: 100%;
 	min-height: 888px;
-	background-color: #A5A9B0;
+	background-color:#011849;
 	padding: 1em;
 
 }
@@ -26,7 +75,7 @@ header {
 	flex:1;
 	order: 1;
 	padding: 1.5em;
-	background-color: #6E8CCA;
+	background-color: #555;
 }
 
 .content {
