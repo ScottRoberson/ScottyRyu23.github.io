@@ -8,7 +8,7 @@ body {
 	font-family: "Helvetica", "Arial",sans-serif;
 	line-height: 1.5;
 	/*width: 80%;*/
-	/*background-color: #B31819;*/
+	/*background-color:#000000;*/
 }
 header {
 	background-image: url("../images/ballpark.jpg");
@@ -51,11 +51,11 @@ header {
 button {
 	font-size: 20px;
 	color: #ffffff;
-	background-color: #3498db;
+	background-color: #0f3486;
 	padding: 10px 20px;
 	margin-top: 10px;
 	border: #1f628d 2px solid;
-	border-radius: 28px;
+	
 }
 
 button:hover {
@@ -63,19 +63,48 @@ button:hover {
      color: white;
 
 }
+
+
+.btn-group{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	/*height: 50px;*/
+	
+	
+
+}
+
+.btn-links button{
+	/*display: flex;*/
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #0f3486;
+	padding: 14px;
+	border: #1f628d 2px solid;
+	height: 50px;
+	width: 200px;
+	
+	
+}
+
 .main {
 	display: flex;
+	/*flex-direction: column;*/
+	/*align-content: flex-start;*/
+	/*flex-wrap: wrap;*/
 	width: 100%;
 	min-height: 888px;
-	background-color:#011849;
+	background-color:#00000000;
 	padding: 1em;
 
 }
 .sidebar {
 	flex:1;
-	order: 1;
+	order: 2;
 	padding: 1.5em;
-	background-color: #555;
+	background-color: #00000000;
 }
 
 .content {
