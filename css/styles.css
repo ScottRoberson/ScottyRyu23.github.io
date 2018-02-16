@@ -7,9 +7,15 @@ body {
 	margin:0 auto;
 	font-family: "Helvetica", "Arial",sans-serif;
 	line-height: 1.5;
+
 	/*width: 80%;*/
 	/*background-color:#000000;*/
 }
+.wrapper {
+	/*max-width: 50em;*/
+	margin:20px;
+}
+
 header {
 	background-image: url("../images/ballpark.jpg");
 	background-repeat: no-repeat;
@@ -41,13 +47,6 @@ header {
 	font-weight: bold;
 }
 
-.welcome p {
-	font-size:15px; 
-	font-weight: bold;
-	padding:  0 1.75em;
-
-}
-
 button {
 	font-size: 20px;
 	color: #ffffff;
@@ -66,7 +65,8 @@ button:hover {
 
 .intro p {
 	display: flex;
-	padding: 2em 1.5em 0;
+	margin-bottom: 1em;
+	
 }
 
 .btn-link  {
@@ -79,7 +79,7 @@ button:hover {
   	font-size: 20px;
 	color: #ffffff;
 	background-color: #0f3486;
-	padding: 10px 20px;
+	padding: 10px;
 	margin-top: 10px;
 	border: #1f628d 2px solid;
 	text-decoration: none;
@@ -87,6 +87,7 @@ button:hover {
 	text-align: center;
 	font-size: 18px;
 	font-family: open sans;
+	
 
   }
 .btn-link a:hover{
@@ -101,26 +102,51 @@ button:hover {
 
 }
 
-.main {
+.daily-tours{
+	background-color:#0f3486;
+	margin-top: 1.25em;
+	height:40px;
+}
+
+.daily-tours h2{
+	color:#ffffff;
+	font-size: 1.275em;
+	font-family: open sans;
+	padding-left: 1em;
+	padding-top: .3em;
+}
+.tours{
+	width:100%;
 	display: flex;
-	/*flex-direction: column;*/
-	align-content: flex-start;
-	width: 100%;
-	min-height: 888px;
-	background-color:#00000000;
+	flex-wrap: wrap;
+}
+
+.pre-tour {
+	color:#0f3486;
+	text-align: center;
+	padding-top: .75em;
+}
+
+.tours h3 {
+	color:#0f3486;
+}
+.non-gameday,.gameday{
+	width:50%;
+	box-sizing: border-box;
+	padding:1.5em;
+
+}
+
+.tours-end p{
 	padding: 1em;
-
-}
-.sidebar {
-	flex:1;
-	order: 2;
-	padding: 1.5em;
-	background-color: #00000000;
 }
 
-.content {
-	order:1;
-	flex:5;
 
-}
+
+
+
+
+
+
+
 
